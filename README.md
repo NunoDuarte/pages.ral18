@@ -1,15 +1,5 @@
-# Academic Project Page Template
-This is an academic paper project page template.
-
-## FBK Style guide
-guide: http://www.fbk.eu/wp-content/uploads/2020/07/Linee-Guida-Kit.pdf
-
-BLUE: #0068b4
-GRAY: #a5a5a5
-
-
-## Start using the template
-To start using the template click on `Use this Template`.
+# Action Alignment from Gaze Cues in Human-Human and Human-Robot Interaction
+This is an academic paper project page for the RA-L 2018 paper
 
 The template uses html for controlling the content and css for controlling the style. 
 To edit the websites contents edit the `index.html` file. It contains different HTML "building blocks", use whichever ones you need and comment out the rest.  
