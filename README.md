@@ -9,7 +9,6 @@ To edit the websites contents edit the `index.html` file. It contains different 
 - Images Carousel
 - Youtube embedding
 - Video Carousel
-- PDF Poster
 - Bibtex citation
 
 ## Tips:
