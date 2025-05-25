@@ -11,6 +11,18 @@ $(document).ready(function() {
 			infinite: true,
 			autoplay: true,
 			autoplaySpeed: 5000,
+			// Add touch support
+			swipeThreshold: 30,
+			draggable: true,
+			pauseOnHover: true,
+			// Responsive breakpoints
+			breakpoints: [
+				{
+					changePoint: 480,
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			]
     }
 
 		// Initialize all div with carousel class

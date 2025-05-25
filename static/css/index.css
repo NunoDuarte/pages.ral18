@@ -133,5 +133,44 @@ body {
   font-size: smaller;
 }
 
+/* Make text more readable on small screens */
+@media screen and (max-width: 768px) {
+  .publication-title {
+    font-size: 1.75rem !important;
+  }
+  
+  .publication-authors {
+    font-size: 0.9rem !important;
+  }
+  
+  .hero-body {
+    padding: 2rem 1rem;
+  }
+  
+  /* Adjust image sizes */
+  .results-carousel .item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Stack columns vertically */
+  .columns.is-mobile {
+    flex-direction: column;
+  }
+  
+  /* Adjust video container */
+  .publication-video {
+    margin: 0 -1rem;
+  }
+}
+
+/* Improve tap targets */
+.navbar-item, 
+.button, 
+.link-block {
+  min-height: 44px;
+  padding: 0.5rem;
+}
+
 
 
