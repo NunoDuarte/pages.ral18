@@ -1,4 +1,4 @@
-# Action Alignment from Gaze Cues in Human-Human and Human-Robot Interaction
+# Action Anticipation: Reading the Intentions of Humans and Robots
 This is an academic project page for the RA-L 2018 paper
 
 The template uses html for controlling the content and css for controlling the style. 
