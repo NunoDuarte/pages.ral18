@@ -287,4 +287,12 @@ body.dark-mode {
   background-color: #3a3a3a;
 }
 
+.hero.teaser, .hero.is-small {
+  position: relative;
+  z-index: 1;
+}
+
+.results-carousel {
+  z-index: 0;
+}
 
