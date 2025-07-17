@@ -49,6 +49,13 @@
   <script defer src="static/js/fontawesome.all.min.js"></script>
   <script src="static/js/bulma-carousel.min.js"></script>
   <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/darkmode-js.min.js"></script>
+  <script>
+    function addDarkmodeWidget() {
+      new Darkmode().showWidget();
+    }
+    window.addEventListener('load', addDarkmodeWidget);
+  </script>
   <script src="static/js/index.js"></script>
 </head>
 <body>
@@ -69,6 +76,15 @@
           <i class="fas fa-home"></i>
       </span>
       </a>
+
+      <div class="navbar-item">
+        <div class="theme-switch-wrapper">
+          <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="slider round"></div>
+          </label>
+        </div>
+      </div>
 
      <div class="navbar-item has-dropdown is-hoverable">
         <a class="navbar-link">
